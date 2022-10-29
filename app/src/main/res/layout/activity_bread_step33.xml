@@ -32,41 +32,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/title" />
 
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="358dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="12dp"
-        android:background="#FFF8D7"
-        android:text="(8)\n發酵完成烤箱180度10分鐘掉頭再10分鐘（依自家烤箱溫度自行調整）。"
-        android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/button0"
-        tools:layout_editor_absoluteX="15dp" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="358dp"
-        android:layout_height="80dp"
-        android:layout_marginTop="12dp"
-        android:background="#FFF8D7"
-        android:text="(9)\n烤至金黃色就完成了。"
-        android:textSize="18sp"
-        app:layout_constraintTop_toBottomOf="@+id/textView1"
-        tools:layout_editor_absoluteX="15dp" />
-
-    <Button
-        android:id="@+id/buttonTime"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:backgroundTint="#7FCB27"
-        android:text="計時器"
-        android:textSize="18dp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/button"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
